@@ -7,7 +7,7 @@ ul {
   margin: 0;
   padding: 0;
   width: 25%;
-  background-color: #f1f1f1;
+  background-color: #219ebc;
   position: fixed;
   height: 100%;
   overflow: auto;
@@ -23,8 +23,8 @@ li a {
 }
 
 li a.active {
-  background-color: #ffe81b;
-  color: black;
+  background-color: #023047;
+  color: white;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -37,4 +37,21 @@ li a:hover:not(.active) {
 
 img {
   margin: 30px;
+}
+
+h1 {
+  font-size: 150px;
+}
+
+p {
+  font-size: 95px;
+}
+
+.container {
+  height: 100vh;
+  background-color: #ffb703;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
