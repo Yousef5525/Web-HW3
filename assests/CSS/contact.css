@@ -51,12 +51,3 @@ p {
   height: 100vh;
   background-color: #ffb703;
 }
-
-.banner {
-  background-color: green;
-  height: 13%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 80px;
-}
